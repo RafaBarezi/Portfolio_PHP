@@ -1,0 +1,15 @@
+<?php
+
+// Parâmetros default
+
+# forma de determinar o valor de um parâmetro. Se a função for invocada sem parâmetro, o valor em questão será 0. Portanto podemos deixar sem definição se desejar.
+
+function login($user = "root", $key = "123") {
+	echo "user = " . $user;
+	echo "key = " . $key;
+}
+
+login ();
+# ou login("eXcript","12345") caso deseje definir
+
+?>

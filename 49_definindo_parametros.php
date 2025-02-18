@@ -1,0 +1,13 @@
+<?php
+
+// Definição de parametros
+
+# São variáveis definidas no cabeçalho da função para o envio de informações. Parametros são diferentes de argumentos . Parametros estão na definição da função
+
+function soma($num1, $num2) {
+	$total = $num1 + $num2;
+	echo $total;
+}
+soma ( 10, 20 );
+
+?>
