@@ -39,4 +39,4 @@ echo"<h2><br>Não Idêntico:</h2>     O !== é o sinal de não idêntico:";
 echo"<br>var_dump(10 !== 10)<br>";
 var_dump(10 === 10);
 echo"<br><br>var_dump(10 !== '10')<br>"; 
-var_dump(10 === '10'); # Neste caso é igual mas não identico
+var_dump(10 === '10'); 

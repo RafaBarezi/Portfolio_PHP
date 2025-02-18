@@ -2,20 +2,7 @@
 
 echo"<h1>Função if/else</h1>";
 
-/*
-
-if(true)
-{
-façaIsso();
-}
-else
-{
-façaAquilo();
-}
-
-*/
-
-$idade = 35; # preencher este campo com a idade desejada
+$idade = 35; 
 
 if($idade >= 18)
 {

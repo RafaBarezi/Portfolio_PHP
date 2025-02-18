@@ -13,6 +13,4 @@ echo"var2 é = $var2 (é instrução)<br>";
 $num1 = 10;
 echo"num1 é = $num1 (é instrução)<br>";  
 $num2 = 20;
-echo"num2 é = $num2 (é instrução)<br>";                     
- 
- 
+echo"num2 é = $num2 (é instrução)<br>";       

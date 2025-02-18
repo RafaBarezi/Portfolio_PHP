@@ -2,33 +2,33 @@
 
 <!DOCTYPE html>
 
-<html lang = "pt-br">
+<html lang="pt-br">
 
-    <head>
+<head>
 
-        <meta charset = "UTF-8">
+    <meta charset="UTF-8">
 
-        <title>Ambiente para estudo do PHP (Boilerplate Code)</title>
+    <title>Ambiente para estudo do PHP (Boilerplate Code)</title>
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <?php
-        
-        if (isset($_POST["valor1"])) {   # isset verifica se a informação existe
-            echo $_POST["valor1"];
-        }   
-        ?>
+    <?php
 
-        <form method="POST">
+    if (isset($_POST["valor1"])) {   # isset verifica se a informação existe
+        echo $_POST["valor1"];
+    }
+    ?>
 
-            <input type = "text" name = "valor1"/>
+    <form method="POST">
 
-            <input type = "submit" />   <!-- Definindo botão enviar-->
+        <input type="text" name="valor1" />
 
-        </form>
+        <input type="submit" /> <!-- Definindo botão enviar-->
 
-    </body>
+    </form>
+
+</body>
 
 </html>

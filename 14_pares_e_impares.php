@@ -2,46 +2,46 @@
 
 <!DOCTYPE html>
 
-<html lang ="pt">
+<html lang="pt">
 
-    <head>
+<head>
 
-        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
-        <title>Números pares e ímpares<br></title>
+    <title>Números pares e ímpares<br></title>
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <?php
-        echo"Por favor, digite um número:";
+    <?php
+    echo "Por favor, digite um número:";
 
-        if (isset($_POST["num"])) {
-            $_POST["num"];
+    if (isset($_POST["num"])) {
+        $_POST["num"];
 
-            $num = $_POST["num"];
+        $num = $_POST["num"];
 
-            if ($num % 2 == 0) {
-                echo"<br>Você informou $num";
-                echo"<br><br>O número informado é par<br>";
-                echo"<br>Por favor, digite um novo número:";
-            } else {
-                echo"<br>Você informou $num";
-                echo"<br><br>O número informado é ímpar<br>";
-                echo"<br>Por favor, digite um novo número:";
-            }
+        if ($num % 2 == 0) {
+            echo "<br>Você informou $num";
+            echo "<br><br>O número informado é par<br>";
+            echo "<br>Por favor, digite um novo número:";
+        } else {
+            echo "<br>Você informou $num";
+            echo "<br><br>O número informado é ímpar<br>";
+            echo "<br>Por favor, digite um novo número:";
         }
-        ?>
+    }
+    ?>
 
-        <form method="POST">
+    <form method="POST">
 
-            <input type = "text" name = "num"/>
+        <input type="text" name="num" />
 
-            <input type = "submit" />
+        <input type="submit" />
 
-        </form>
+    </form>
 
-    </body>
+</body>
 
 </html>
